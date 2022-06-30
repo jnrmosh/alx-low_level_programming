@@ -1,25 +1,10 @@
 #include <stdio.h>
 
-
-
-/**
- *
- * * main - print the string in the put function
- *
- * *
- *
- * * Description: using the main function
- *
- * * this program prints "Programming is like building a multilingual puzzle"
- *
- * * Return: 0
- *
- * */
+/*  main function - print the string in put function && program prints various sizes of types on the computer */
 
 int main(void)
 
 {
-
 	char c;
 	int i;
 	long li;
@@ -33,5 +18,4 @@ int main(void)
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	
 	return (0);
-
 }
