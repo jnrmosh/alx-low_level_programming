@@ -25,5 +25,5 @@ int main(void)
 	{
 		printf("and is less than 6 and 0\n");
 	}
-	return (0)
+	return (0);
 }
