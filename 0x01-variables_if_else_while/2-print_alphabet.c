@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase followed by new line
+* main - entry point
 *
+* Description: Prints the alphabet in lowercase
 * putchar - writes a single character to the standard output stream
-* return: 0 success
+* Return: 0 success
 */
-main()
+int main(void)
 {
 	char alphabet = 'a';
 
