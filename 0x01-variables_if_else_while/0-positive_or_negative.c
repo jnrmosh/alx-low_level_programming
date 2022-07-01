@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - assigns a radnom number to int everytime
- * Return: Always 0 success
- */
+* main - assigns a radnom number to int everytime
+*
+* Return: Always 0 success
+*/
 int main(void)
 {
 	int n;
