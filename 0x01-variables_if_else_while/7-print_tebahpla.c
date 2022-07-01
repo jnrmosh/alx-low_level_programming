@@ -2,8 +2,7 @@
 
 /**
 * main - prints lowercase alphabet in reverse,
-*
-* Description: print the alphabet lowercase in reverse followed by new line
+* followed by new line
 *
 * Return : 0 (Success)
 */
