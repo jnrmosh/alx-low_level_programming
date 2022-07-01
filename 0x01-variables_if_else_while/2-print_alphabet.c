@@ -6,7 +6,7 @@
 * putchar - writes a single character to the standard output stream
 * return: 0 success
 */
-int main(void)
+main()
 {
 	char alphabet = 'a';
 
