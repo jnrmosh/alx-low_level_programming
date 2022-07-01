@@ -27,7 +27,7 @@ int main(void)
 	}
 	else
 	{
-		printf(" is 0 and is 0\n");
+		printf(" and is 0\n");
 	}
 	return (0);
 }
