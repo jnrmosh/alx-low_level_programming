@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - print lowercase alphabet in reverse
-* followed by a new line
-* return (0) - Success
+* main - Entry Point
+*
+* Return: Always 0
 */
 int main(void)
 {
