@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - entry point
-* Description - print lowercase alphabet in reverse,
-* followed by new line
-*
-* Return : 0 (Success)
+* main - print lowercase alphabet in reverse
+* followed by a new line
+* return (0) - Success
 */
 int main(void)
 {
@@ -15,6 +13,6 @@ int main(void)
 	{
 		putchar(tbet);
 	}
-	putchar(tbet);
+	putchar('\n');
 	return (0);
 }
