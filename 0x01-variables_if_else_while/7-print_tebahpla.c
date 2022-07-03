@@ -9,7 +9,7 @@ int main(void)
 {
 	char tbet;
 
-	for (tbet = 'z'; tbet > 'a'; tbet--)
+	for (tbet = 'z'; tbet >= 'a'; tbet--)
 	{
 		putchar(tbet);
 	}
