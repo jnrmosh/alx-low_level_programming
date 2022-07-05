@@ -1,8 +1,11 @@
+#include <stdio.h>
 #include <main.h>
 /**
- * main - check the code
+ * main - entry point
  *
- * Return: Always 0.
+ * print_alphabet() - function to print alphabet in lowercase
+ *
+ * Return: Always 0
  */
 int main(void)
 {
