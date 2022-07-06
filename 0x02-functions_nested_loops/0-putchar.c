@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry Point
@@ -8,23 +8,22 @@
  */
 int main(void)
 {
-	print_message();
+	message();
 	return (0);
 }
 
 /**
- * print_message - print putchar
- *
+ * message - print putchar
  * Return:void
  */
-void print_message(void)
+void message(void)
 {
-	int k;
-	char message[8] = '_putchar';
+	unsigned int k;
+	char msg[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	for (k = 0; k <= 8; k++)
+	for (k = 0; k <sizeof(msg); k++)
 	{
-		putchar(message[k]);
+		_putchar(msg[k]);
 	}
-	putchar('\n');
+ 	_putchar('\n');
 }
