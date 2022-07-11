@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of a string
- * @s: input character
+ * @str: input character
  * Return: No return
  */
 void puts2(char *str)
@@ -10,7 +10,7 @@ void puts2(char *str)
 	int i = 0;
 	int j = 0;
 
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
