@@ -9,13 +9,13 @@
 
 int divisors(int n, int m)
 {
-	if(m % n == 0)
+	if (m % n == 0)
 	{
 		return (0);
 	}
 	else if (m / 2 > n)
 	{
-		return (divisors (n + 2, m));
+		return (divisors(n + 2, m));
 	}
 	else
 	{
