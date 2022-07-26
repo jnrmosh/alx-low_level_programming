@@ -30,11 +30,11 @@ char *str_concat(char *s1, char *s2)
 	unsigned int l1;
 	unsigned int l2;
 	char *conc;
-        char *tmp;
+	char *tmp;
 
 	if (!s1)
 		s1 = "";
-	else 
+	else
 		l1 = _strlen(s1);
 
 	if (!s2)
