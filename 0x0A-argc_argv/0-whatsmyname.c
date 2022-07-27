@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - function
+ * main - program that prints its name, followed by a new line.
+ * when renamed it prints new name without having to compile again
+ *
  * argc: offset count
  * argv: offset value
- * Return: 0
+ *
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
